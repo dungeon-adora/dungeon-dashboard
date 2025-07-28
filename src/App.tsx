@@ -19,8 +19,12 @@ function App() {
         setStory={handleStoryChange}
       />
       <main style={{ flex: 1, padding: '2rem' }}>
-        {/* Inhalt */}
-        todo
+        {
+          currentStory.id=="new-story"?<div>
+            Hallo Welt
+          </div>
+          :<div>ciao</div>
+        }
       </main>
     </div>
     </ProSidebarProvider>
