@@ -10,7 +10,7 @@ interface Props {
 
 export default function StorySidebar({ stories, currentStoryId, setStory }: Props) {
   return (
-    <Sidebar>
+    <Sidebar className='sidebar-custom'>
       <Menu>
         {stories.map((story) => (
           <MenuItem
