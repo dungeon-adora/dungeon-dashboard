@@ -5,7 +5,6 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from "../ui/accordion";
-import { Wand2 } from "lucide-react";
 import "./spellsComponent.scss";
 
 interface Spell {
