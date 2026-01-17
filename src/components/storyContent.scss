@@ -6,16 +6,35 @@
   width: fit-content;
   display: flex;
   margin-top: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 
   .banner-title {
-    color: white;
     padding-left: 20px;
     padding-right: 160px;
-    padding-top: 4px;
+    padding-top: 22px;
     text-align: left;
     white-space: nowrap;
   }
 }
 .story-main-content {
-  margin: 12px 20px;
+  width: 100%;
+  margin-top: 12px;
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+  box-sizing: border-box;
+  // scrollbar styles for color
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background: rgba(black, 0.4);
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(black, 0.7);
+    border-radius: 6px;
+  }
+
+
 }

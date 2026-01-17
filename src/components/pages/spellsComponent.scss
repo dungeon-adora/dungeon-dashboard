@@ -1,0 +1,65 @@
+.spells-container {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  max-width: none;
+
+  .spells-list {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .spell-trigger {
+    width: 100%;
+    padding: 16px 20px !important;
+    background-color: rgba(74, 21, 5, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+
+    .spell-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      gap: 16px;
+
+      .spell-level {
+        color: black;
+        padding: 4px 12px;
+        background-color: rgba($color: white, $alpha: 0.5);
+        border-radius: 20px;
+        font-size: 0.85em;
+        font-weight: 600;
+        white-space: nowrap;
+      }
+          .spell-tags {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+
+      .tag {
+        color: black;
+        padding: 4px 12px;
+        background-color: rgba($color: white, $alpha: 0.5);
+        border-radius: 12px;
+        font-size: 0.85em;
+        font-weight: 500;
+      }
+    }
+    }
+  }
+
+  .spell-content {
+    padding: 16px 20px !important;
+ background-color: rgba(74, 21, 5, 0.8);
+
+
+    .spell-description {
+      line-height: 1.6;
+    }
+  }
+}
+

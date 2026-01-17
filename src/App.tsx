@@ -24,7 +24,7 @@ function App() {
       backgroundAttachment: 'fixed'
     }}>
       <Navigation currentStoryId={currentStory.id} onStoryChange={handleStoryChange} />
-      <main style={{ overflowY: 'auto' }}>
+      <main style={{ overflowY: 'auto', flex: 1, width: '100%' }}>
           <StoryContent story={currentStory} />
         </main>
     </div>

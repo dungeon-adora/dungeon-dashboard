@@ -1,0 +1,48 @@
+[{
+  "title": "Fireball",
+  "level": 0,
+  "tags": ["Evocation", "Fire"],
+  "description": "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame."
+},
+{
+  "title": "Mage Armor",
+  "level": 1,
+  "tags": ["Abjuration"],
+  "description": "You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends."
+},
+{
+  "title": "Cure Wounds",
+  "level": 1,
+  "tags": ["Evocation", "Healing"],
+  "description": "A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier."
+},
+{
+  "title": "Invisibility",
+  "level": 2,
+  "tags": ["Illusion"],
+  "description": "A creature you touch becomes invisible until the spell ends."
+},
+{
+  "title": "Lightning Bolt",
+  "level": 3,
+  "tags": ["Evocation", "Electricity"],
+  "description": "A stroke of lightning forming a line of 100 feet long and 5 feet wide blasts out from you in a direction you choose."
+},
+{
+  "title": "Polymorph",
+  "level": 4,
+  "tags": ["Transmutation"], 
+  "description": "This spell transforms a creature that you can see within range into a new form."
+},
+{
+  "title": "Wall of Force",
+  "level": 5,
+  "tags": ["Evocation", "Force"],
+  "description": "An invisible wall of force springs into existence at a point you choose within range."
+},
+{
+  "title": "Shield of Faith",
+  "level": 1,
+  "tags": ["Abjuration", "Concentration"],
+  "description": "The target gains a +2 bonus to AC until the spell ends."
+}]

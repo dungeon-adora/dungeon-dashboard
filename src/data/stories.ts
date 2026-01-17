@@ -16,4 +16,5 @@ export const stories: Story[] = [
     id: "2",
     title: "Die Nordmänner",
   },
+  {id: "3", title: "Spells"},
 ];
