@@ -6,10 +6,14 @@ export type Story = {
 
 export const stories: Story[] = [
   {
-    id: "new-story",
-    title: "Neue Story von Phil",
+    id: "home",
+    title: "Home",
+  },
+  {
+    id: "1",
+    title: "1",
   },{
-    id: "Test123",
-    title: "alte Story von Phil",
+    id: "2",
+    title: "2",
   },
 ];

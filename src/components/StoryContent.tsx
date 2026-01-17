@@ -1,22 +1,28 @@
 // components/StoryContent.tsx
 import React from "react";
 import type { Story } from "../data/stories";
-import sushiImg from "../data/sushi.jpg"
+
 interface StoryContentProps {
   story: Story;
 }
 
 const StoryContent: React.FC<StoryContentProps> = ({ story }) => {
-  if (story.id === "new-story") {
-    return <div>Hallo Welt</div>;
+  if (story.id === "1") {
+    return <div>
+      <h1>{story.title}</h1>
+      Hier wird die seite 1 veröffentlicht
+      </div>;
+  } else if (story.id === "2") {
+    return <div>
+      <h1>{story.title}</h1>
+      Hier wird die seite 2 veröffentlicht
+      </div>;
   }
 
   return (
     <div>
-      <h2>{story.title}</h2>
-      <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-       <img className="sushi-class"src={sushiImg}></img>
-      </div>
+      <h1>Home</h1>
+      Hier ist die default landing page
     </div>
   );
 };
