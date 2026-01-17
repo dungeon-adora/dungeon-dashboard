@@ -10,7 +10,7 @@ export const SecoundComponent: React.FC<SecoundComponentProps> = ({ story }) => 
   return (
     <div>
       <h1>{story.title}</h1>
-     Hier wird die seite 1 veröffentlicht
+     Hier wird die seite 2 veröffentlicht
     </div>
   );
 };
