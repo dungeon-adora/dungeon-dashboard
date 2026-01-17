@@ -7,13 +7,13 @@ export type Story = {
 export const stories: Story[] = [
   {
     id: "home",
-    title: "Home",
+    title: "Adora - Journey to Ragnarok",
   },
   {
     id: "1",
-    title: "1",
+    title: "Die Welt von Adora",
   },{
     id: "2",
-    title: "2",
+    title: "Die Nordmänner",
   },
 ];
