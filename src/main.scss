@@ -14,3 +14,28 @@ $spacing-lg: 2rem;
 $font-sm: 0.875rem;
 $font-md: 1rem;
 $font-lg: 1.25rem;
+.sushi-class{
+    height: 300px;
+}
+.first-container{
+    /*background-color:$color-bg;*/
+}
+/* styles/homebrewery.css */
+body {
+  background-color: #fdf3d7; /* Pergamentton */
+  font-family: 'EB Garamond', serif;
+  color: #2c1d0f; /* dunkles Braun/Schwarz */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #7b2d26; /* DnD-Rot */
+}
+
+main {
+  padding: 2rem;
+  background-image: url('/images/parchment-texture.jpg'); /* optional */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
