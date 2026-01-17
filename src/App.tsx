@@ -3,7 +3,7 @@ import { stories } from "./data/stories"
 import { ProSidebarProvider } from "react-pro-sidebar";
 import StoryContent from "./components/StoryContent";
 import Navigation from "./components/Navigation";
-import backgroundImg from "./images/background-2.png";
+import backgroundImg from "./images/background.png";
 
 function App() {
   const [currentStory, setCurrentStory] = useState(stories[0]);

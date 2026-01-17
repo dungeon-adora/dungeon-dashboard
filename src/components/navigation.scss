@@ -22,7 +22,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: rgba(200, 107, 129, 0.9);
+  background: rgba(115, 48, 37, 0.7);
   border: 0;
   color: #f1f2f6;
   cursor: pointer;
@@ -36,13 +36,14 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 
   &:hover {
-    background: rgba(200, 107, 129, 1);
+    background: rgba(115, 48, 37, 1);
     transform: scale(1.1);
-    box-shadow: 0 6px 12px rgba(255, 107, 129, 0.5);
+    box-shadow: 0 6px 12px rgba(115, 48, 37, 0.9);
   }
 
   &.active {
-    background: #ff6b81;
-    box-shadow: 0 0 20px rgba(200, 107, 129, 0.8);
+    background: rgb(115, 48, 37);
+      transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(115, 48, 37, 1);
   }
 }
