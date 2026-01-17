@@ -1,6 +1,9 @@
 // components/StoryContent.tsx
 import React from "react";
 import type { Story } from "../data/stories";
+import { HomeComponent } from "./pages/HomeComponent";
+import { FirstComponent } from "./pages/FirstComponent";
+import { SecoundComponent } from "./pages/SecoundComponent";
 
 interface StoryContentProps {
   story: Story;
@@ -8,23 +11,12 @@ interface StoryContentProps {
 
 const StoryContent: React.FC<StoryContentProps> = ({ story }) => {
   if (story.id === "1") {
-    return <div>
-      <h1>{story.title}</h1>
-      Hier wird die seite 1 veröffentlicht
-      </div>;
+    return <FirstComponent story={story} />;
   } else if (story.id === "2") {
-    return <div>
-      <h1>{story.title}</h1>
-      Hier wird die seite 2 veröffentlicht
-      </div>;
+    return <SecoundComponent story={story} />;
   }
 
-  return (
-    <div>
-      <h1>Home</h1>
-      Hier ist die default landing page
-    </div>
-  );
+  return <HomeComponent story={story} />
 };
 
 export default StoryContent;
