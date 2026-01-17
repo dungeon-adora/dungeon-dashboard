@@ -1,0 +1,21 @@
+.banner-header {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 120px;
+  width: fit-content;
+  display: flex;
+  margin-top: 18px;
+
+  .banner-title {
+    color: white;
+    padding-left: 20px;
+    padding-right: 160px;
+    padding-top: 4px;
+    text-align: left;
+    white-space: nowrap;
+  }
+}
+.story-main-content {
+  margin: 12px 20px;
+}
