@@ -20,7 +20,8 @@ function App() {
       height: '100vh',
       backgroundImage: `url(${backgroundImg})`,
       backgroundSize: 'cover',
-      backgroundPosition: 'center'
+      backgroundPosition: 'center',
+      backgroundAttachment: 'fixed'
     }}>
       <Navigation currentStoryId={currentStory.id} onStoryChange={handleStoryChange} />
       <main style={{ flex: 1, padding: '2rem', overflowY: 'auto', backgroundColor: 'transparent' }}>

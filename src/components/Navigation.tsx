@@ -14,17 +14,13 @@ export const Navigation: React.FC<NavigationProps> = ({
   return (
     <nav className="sword-navigation">
       <div className="sword-background">
-        {stories.map((story, index) => (
+        {stories.map((story) => (
           <button
             key={story.id}
-            className={`nav-icon ${currentStoryId === story.id ? 'active' : ''}`}
+            className={`story-banner ${currentStoryId === story.id ? 'active' : ''}`}
             onClick={() => onStoryChange(story)}
-            title={story.title}
-            style={{
-              top: `${150 + index * 60}px`,
-            }}
           >
-            <span className="icon-text">{story.title.split(' ')[0]}</span>
+            <span className="story-title">{story.title}</span>
           </button>
         ))}
       </div>
