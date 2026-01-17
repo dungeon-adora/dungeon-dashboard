@@ -1,4 +1,3 @@
-import React from "react";
 import spellsList from "../../data/spellsList.json";
 import {
   Accordion,
